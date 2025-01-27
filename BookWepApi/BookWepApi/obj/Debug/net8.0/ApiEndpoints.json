@@ -1,0 +1,69 @@
+[
+  {
+    "ContainingType": "BookWepApi.Controllers.BooksController",
+    "Method": "BatchInsert",
+    "RelativePath": "api/Books/batch-insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "books",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookWepApi.Models.Book, BookWepApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookWepApi.Controllers.BooksController",
+    "Method": "GetBooksSortedByAuthor",
+    "RelativePath": "api/Books/sorted-by-author",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookWepApi.Controllers.BooksController",
+    "Method": "GetBooksSortedByPublisher",
+    "RelativePath": "api/Books/sorted-by-publisher",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookWepApi.Controllers.BooksController",
+    "Method": "GetTotalPrice",
+    "RelativePath": "api/Books/total-price",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookWepApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookWepApi.WeatherForecast, BookWepApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

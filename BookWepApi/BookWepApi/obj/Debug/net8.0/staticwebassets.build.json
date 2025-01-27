@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "9+yeZZicvDACkcLWqpQysaSrPUNmoP1EHp4nifAZQgw=",
+  "Source": "BookWepApi",
+  "BasePath": "_content/BookWepApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
