@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Anand\\Project\\BookWepApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\repositories\\ibookrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\repositories\\ibookrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|solutionrelative:bookwepapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE3973FC-1966-4771-A740-C127C151BAEC}|BookWepApi\\BookWepApi.csproj|d:\\anand\\project\\bookwepapi\\bookwepapi\\data\\booksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +50,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "BookWepApi\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "BookWepApi\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:29:00.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "BooksController.cs",
               "DocumentMoniker": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "BookWepApi\\Controllers\\BooksController.cs",
               "ToolTip": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Controllers\\BooksController.cs",
               "RelativeToolTip": "BookWepApi\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T12:16:38.165Z",
               "EditorCaption": ""
@@ -65,14 +82,14 @@
               "RelativeDocumentMoniker": "BookWepApi\\Repositories\\BookRepository.cs",
               "ToolTip": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Repositories\\BookRepository.cs",
               "RelativeToolTip": "BookWepApi\\Repositories\\BookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T12:14:52.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IBookRepositories.cs",
               "DocumentMoniker": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Repositories\\IBookRepositories.cs",
               "RelativeDocumentMoniker": "BookWepApi\\Repositories\\IBookRepositories.cs",
@@ -91,7 +108,7 @@
               "RelativeDocumentMoniker": "BookWepApi\\Program.cs",
               "ToolTip": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Program.cs",
               "RelativeToolTip": "BookWepApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-27T12:11:19.341Z",
               "EditorCaption": ""
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Models\\Book.cs",
               "RelativeDocumentMoniker": "BookWepApi\\Models\\Book.cs",
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BooksDbContext.cs",
               "DocumentMoniker": "D:\\Anand\\Project\\BookWepApi\\BookWepApi\\Data\\BooksDbContext.cs",
               "RelativeDocumentMoniker": "BookWepApi\\Data\\BooksDbContext.cs",
@@ -132,8 +149,7 @@
               "RelativeToolTip": "BookWepApi\\Data\\BooksDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T12:04:58.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T12:04:58.53Z"
             }
           ]
         }

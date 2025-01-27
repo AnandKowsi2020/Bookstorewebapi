@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Books/sorted-by-publisher": {
+    "/api/Books/get-book-sorted-by-publisher": {
       "get": {
         "tags": [
           "Books"
@@ -17,7 +17,7 @@
         }
       }
     },
-    "/api/Books/sorted-by-author": {
+    "/api/Books/get-book-sorted-by-author": {
       "get": {
         "tags": [
           "Books"
@@ -29,7 +29,7 @@
         }
       }
     },
-    "/api/Books/total-price": {
+    "/api/Books/get-total-price": {
       "get": {
         "tags": [
           "Books"
@@ -80,45 +80,6 @@
           }
         }
       }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
@@ -166,29 +127,6 @@
             "type": "string",
             "nullable": true,
             "readOnly": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false

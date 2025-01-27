@@ -8,28 +8,31 @@ namespace BookWepApi.Controllers
     [ApiController]
     public class BooksController : ControllerBase
     {
+        //Dependency Injection to implementation of the repository 
+        // Injected the controller
         private readonly IBookRepositories _repository;
 
+        //Constructor 
         public BooksController(IBookRepositories repository)
         {
             _repository = repository;
         }
 
-        [HttpGet("sorted-by-publisher")]
+        [HttpGet("get-book-sorted-by-publisher")]
         public async Task<IActionResult> GetBooksSortedByPublisher()
         {
             var books = await _repository.GetBooksSortedByPublisherAsync();
             return Ok(books);
         }
 
-        [HttpGet("sorted-by-author")]
+        [HttpGet("get-book-sorted-by-author")]
         public async Task<IActionResult> GetBooksSortedByAuthor()
         {
             var books = await _repository.GetBooksSortedByAuthorAsync();
             return Ok(books);
         }
 
-        [HttpGet("total-price")]
+        [HttpGet("get-total-price")]
         public async Task<IActionResult> GetTotalPrice()
         {
             var totalPrice = await _repository.GetTotalPriceAsync();

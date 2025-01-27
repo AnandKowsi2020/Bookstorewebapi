@@ -18,7 +18,7 @@
   {
     "ContainingType": "BookWepApi.Controllers.BooksController",
     "Method": "GetBooksSortedByAuthor",
-    "RelativePath": "api/Books/sorted-by-author",
+    "RelativePath": "api/Books/get-book-sorted-by-author",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "BookWepApi.Controllers.BooksController",
     "Method": "GetBooksSortedByPublisher",
-    "RelativePath": "api/Books/sorted-by-publisher",
+    "RelativePath": "api/Books/get-book-sorted-by-publisher",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -38,32 +38,11 @@
   {
     "ContainingType": "BookWepApi.Controllers.BooksController",
     "Method": "GetTotalPrice",
-    "RelativePath": "api/Books/total-price",
+    "RelativePath": "api/Books/get-total-price",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BookWepApi.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookWepApi.WeatherForecast, BookWepApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]
